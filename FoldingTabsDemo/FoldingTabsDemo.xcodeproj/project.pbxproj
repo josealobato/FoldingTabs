@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2500AC5C16DF385C00318A0B /* FoldingTabC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2500AC5316DF385C00318A0B /* FoldingTabC.m */; };
+		2500AC5D16DF385C00318A0B /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 2500AC5616DF385C00318A0B /* readme.md */; };
+		2500AC5E16DF385C00318A0B /* FoldingTabV.m in Sources */ = {isa = PBXBuildFile; fileRef = 2500AC5816DF385C00318A0B /* FoldingTabV.m */; };
+		2500AC5F16DF385C00318A0B /* FoldingTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2500AC5A16DF385C00318A0B /* FoldingTabVC.m */; };
+		2500AC6016DF385C00318A0B /* FoldingTabVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2500AC5B16DF385C00318A0B /* FoldingTabVC.xib */; };
+		2500AC6616E08AE100318A0B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2500AC6516E08AE100318A0B /* MainViewController.m */; };
+		2500AC6916E08B2700318A0B /* MainTabsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2500AC6816E08B2700318A0B /* MainTabsView.m */; };
+		2500AC7016E08E3800318A0B /* TabDemoContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2500AC6C16E08E3800318A0B /* TabDemoContent.m */; };
+		2500AC7116E08E3800318A0B /* TabDemoContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2500AC6D16E08E3800318A0B /* TabDemoContent.xib */; };
+		2500AC7216E08E3800318A0B /* TapDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2500AC6F16E08E3800318A0B /* TapDemoView.m */; };
+		2500AC7416E106D600318A0B /* folder_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2500AC7316E106D600318A0B /* folder_background.png */; };
+		25E3765F167AFC4200879F80 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E3765E167AFC4200879F80 /* Cocoa.framework */; };
+		25E37669167AFC4200879F80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25E37667167AFC4200879F80 /* InfoPlist.strings */; };
+		25E3766B167AFC4200879F80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E3766A167AFC4200879F80 /* main.m */; };
+		25E3766F167AFC4200879F80 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 25E3766D167AFC4200879F80 /* Credits.rtf */; };
+		25E37672167AFC4300879F80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E37671167AFC4300879F80 /* AppDelegate.m */; };
+		25E37675167AFC4300879F80 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25E37673167AFC4300879F80 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2500AC5216DF385C00318A0B /* FoldingTabC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldingTabC.h; sourceTree = "<group>"; };
+		2500AC5316DF385C00318A0B /* FoldingTabC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldingTabC.m; sourceTree = "<group>"; };
+		2500AC5416DF385C00318A0B /* FoldingTabDimensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldingTabDimensions.h; sourceTree = "<group>"; };
+		2500AC5516DF385C00318A0B /* FoldingTabProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldingTabProtocol.h; sourceTree = "<group>"; };
+		2500AC5616DF385C00318A0B /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
+		2500AC5716DF385C00318A0B /* FoldingTabV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldingTabV.h; sourceTree = "<group>"; };
+		2500AC5816DF385C00318A0B /* FoldingTabV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldingTabV.m; sourceTree = "<group>"; };
+		2500AC5916DF385C00318A0B /* FoldingTabVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldingTabVC.h; sourceTree = "<group>"; };
+		2500AC5A16DF385C00318A0B /* FoldingTabVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldingTabVC.m; sourceTree = "<group>"; };
+		2500AC5B16DF385C00318A0B /* FoldingTabVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoldingTabVC.xib; sourceTree = "<group>"; };
+		2500AC6416E08AE100318A0B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2500AC6516E08AE100318A0B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2500AC6716E08B2700318A0B /* MainTabsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabsView.h; sourceTree = "<group>"; };
+		2500AC6816E08B2700318A0B /* MainTabsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabsView.m; sourceTree = "<group>"; };
+		2500AC6B16E08E3800318A0B /* TabDemoContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabDemoContent.h; sourceTree = "<group>"; };
+		2500AC6C16E08E3800318A0B /* TabDemoContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabDemoContent.m; sourceTree = "<group>"; };
+		2500AC6D16E08E3800318A0B /* TabDemoContent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabDemoContent.xib; sourceTree = "<group>"; };
+		2500AC6E16E08E3800318A0B /* TapDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapDemoView.h; sourceTree = "<group>"; };
+		2500AC6F16E08E3800318A0B /* TapDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapDemoView.m; sourceTree = "<group>"; };
+		2500AC7316E106D600318A0B /* folder_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder_background.png; sourceTree = "<group>"; };
+		25E3765A167AFC4200879F80 /* FoldingTabsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoldingTabsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E3765E167AFC4200879F80 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		25E37661167AFC4200879F80 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		25E37662167AFC4200879F80 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		25E37663167AFC4200879F80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25E37666167AFC4200879F80 /* FoldingTabsDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoldingTabsDemo-Info.plist"; sourceTree = "<group>"; };
+		25E37668167AFC4200879F80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25E3766A167AFC4200879F80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25E3766C167AFC4200879F80 /* FoldingTabsDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoldingTabsDemo-Prefix.pch"; sourceTree = "<group>"; };
+		25E3766E167AFC4200879F80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		25E37670167AFC4300879F80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25E37671167AFC4300879F80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25E37674167AFC4300879F80 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25E37657167AFC4200879F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E3765F167AFC4200879F80 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2500AC5116DF381E00318A0B /* FoldingTabs */ = {
+			isa = PBXGroup;
+			children = (
+				2500AC5616DF385C00318A0B /* readme.md */,
+				2500AC5216DF385C00318A0B /* FoldingTabC.h */,
+				2500AC5316DF385C00318A0B /* FoldingTabC.m */,
+				2500AC5416DF385C00318A0B /* FoldingTabDimensions.h */,
+				2500AC5516DF385C00318A0B /* FoldingTabProtocol.h */,
+				2500AC5716DF385C00318A0B /* FoldingTabV.h */,
+				2500AC5816DF385C00318A0B /* FoldingTabV.m */,
+				2500AC5916DF385C00318A0B /* FoldingTabVC.h */,
+				2500AC5A16DF385C00318A0B /* FoldingTabVC.m */,
+				2500AC5B16DF385C00318A0B /* FoldingTabVC.xib */,
+				2500AC7316E106D600318A0B /* folder_background.png */,
+			);
+			name = FoldingTabs;
+			path = ../FoldingTabs;
+			sourceTree = "<group>";
+		};
+		2500AC6A16E08E1500318A0B /* TabContent */ = {
+			isa = PBXGroup;
+			children = (
+				2500AC6B16E08E3800318A0B /* TabDemoContent.h */,
+				2500AC6C16E08E3800318A0B /* TabDemoContent.m */,
+				2500AC6D16E08E3800318A0B /* TabDemoContent.xib */,
+				2500AC6E16E08E3800318A0B /* TapDemoView.h */,
+				2500AC6F16E08E3800318A0B /* TapDemoView.m */,
+			);
+			name = TabContent;
+			path = TabsContent;
+			sourceTree = "<group>";
+		};
+		25E3764F167AFC4200879F80 = {
+			isa = PBXGroup;
+			children = (
+				2500AC5116DF381E00318A0B /* FoldingTabs */,
+				25E37664167AFC4200879F80 /* FoldingTabsDemo */,
+				25E3765D167AFC4200879F80 /* Frameworks */,
+				25E3765B167AFC4200879F80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25E3765B167AFC4200879F80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25E3765A167AFC4200879F80 /* FoldingTabsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25E3765D167AFC4200879F80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25E3765E167AFC4200879F80 /* Cocoa.framework */,
+				25E37660167AFC4200879F80 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25E37660167AFC4200879F80 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25E37661167AFC4200879F80 /* AppKit.framework */,
+				25E37662167AFC4200879F80 /* CoreData.framework */,
+				25E37663167AFC4200879F80 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		25E37664167AFC4200879F80 /* FoldingTabsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				25E37670167AFC4300879F80 /* AppDelegate.h */,
+				25E37671167AFC4300879F80 /* AppDelegate.m */,
+				25E37673167AFC4300879F80 /* MainMenu.xib */,
+				2500AC6416E08AE100318A0B /* MainViewController.h */,
+				2500AC6516E08AE100318A0B /* MainViewController.m */,
+				2500AC6716E08B2700318A0B /* MainTabsView.h */,
+				2500AC6816E08B2700318A0B /* MainTabsView.m */,
+				2500AC6A16E08E1500318A0B /* TabContent */,
+				25E37665167AFC4200879F80 /* Supporting Files */,
+			);
+			path = FoldingTabsDemo;
+			sourceTree = "<group>";
+		};
+		25E37665167AFC4200879F80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25E37666167AFC4200879F80 /* FoldingTabsDemo-Info.plist */,
+				25E37667167AFC4200879F80 /* InfoPlist.strings */,
+				25E3766A167AFC4200879F80 /* main.m */,
+				25E3766C167AFC4200879F80 /* FoldingTabsDemo-Prefix.pch */,
+				25E3766D167AFC4200879F80 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25E37659167AFC4200879F80 /* FoldingTabsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E37678167AFC4300879F80 /* Build configuration list for PBXNativeTarget "FoldingTabsDemo" */;
+			buildPhases = (
+				25E37656167AFC4200879F80 /* Sources */,
+				25E37657167AFC4200879F80 /* Frameworks */,
+				25E37658167AFC4200879F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoldingTabsDemo;
+			productName = FoldingTabsDemo;
+			productReference = 25E3765A167AFC4200879F80 /* FoldingTabsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25E37651167AFC4200879F80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jose Lobato";
+			};
+			buildConfigurationList = 25E37654167AFC4200879F80 /* Build configuration list for PBXProject "FoldingTabsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25E3764F167AFC4200879F80;
+			productRefGroup = 25E3765B167AFC4200879F80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25E37659167AFC4200879F80 /* FoldingTabsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25E37658167AFC4200879F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E37669167AFC4200879F80 /* InfoPlist.strings in Resources */,
+				25E3766F167AFC4200879F80 /* Credits.rtf in Resources */,
+				25E37675167AFC4300879F80 /* MainMenu.xib in Resources */,
+				2500AC5D16DF385C00318A0B /* readme.md in Resources */,
+				2500AC6016DF385C00318A0B /* FoldingTabVC.xib in Resources */,
+				2500AC7116E08E3800318A0B /* TabDemoContent.xib in Resources */,
+				2500AC7416E106D600318A0B /* folder_background.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25E37656167AFC4200879F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E3766B167AFC4200879F80 /* main.m in Sources */,
+				25E37672167AFC4300879F80 /* AppDelegate.m in Sources */,
+				2500AC5C16DF385C00318A0B /* FoldingTabC.m in Sources */,
+				2500AC5E16DF385C00318A0B /* FoldingTabV.m in Sources */,
+				2500AC5F16DF385C00318A0B /* FoldingTabVC.m in Sources */,
+				2500AC6616E08AE100318A0B /* MainViewController.m in Sources */,
+				2500AC6916E08B2700318A0B /* MainTabsView.m in Sources */,
+				2500AC7016E08E3800318A0B /* TabDemoContent.m in Sources */,
+				2500AC7216E08E3800318A0B /* TapDemoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25E37667167AFC4200879F80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25E37668167AFC4200879F80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25E3766D167AFC4200879F80 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25E3766E167AFC4200879F80 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		25E37673167AFC4300879F80 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25E37674167AFC4300879F80 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25E37676167AFC4300879F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		25E37677167AFC4300879F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		25E37679167AFC4300879F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoldingTabsDemo/FoldingTabsDemo-Prefix.pch";
+				INFOPLIST_FILE = "FoldingTabsDemo/FoldingTabsDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25E3767A167AFC4300879F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoldingTabsDemo/FoldingTabsDemo-Prefix.pch";
+				INFOPLIST_FILE = "FoldingTabsDemo/FoldingTabsDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25E37654167AFC4200879F80 /* Build configuration list for PBXProject "FoldingTabsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E37676167AFC4300879F80 /* Debug */,
+				25E37677167AFC4300879F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E37678167AFC4300879F80 /* Build configuration list for PBXNativeTarget "FoldingTabsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E37679167AFC4300879F80 /* Debug */,
+				25E3767A167AFC4300879F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25E37651167AFC4200879F80 /* Project object */;
+}
