@@ -3,9 +3,9 @@
 
 The Floating tab management group is in charge of mount, adjust and maintain a set of folding tabs but not of their content. 
 
-![Folded Tabs image](https://dl.dropbox.com/u/159275/FoldingTabs1.png)
-![One unfolded Tab image](https://dl.dropbox.com/u/159275/FoldingTabs2.png)
-![Two unfolded Tab image](https://dl.dropbox.com/u/159275/FoldingTabs3.png)
+![Folded Tabs image](http://josealobato.org/public_assets/FoldingTabs1.png)
+![One unfolded Tab image](http://josealobato.org/public_assets/FoldingTabs2.png)
+![Two unfolded Tab image](http://josealobato.org/public_assets/FoldingTabs3.png)
 
 Some legend:
 
